@@ -1,0 +1,34 @@
+  {
+  "name": "jsms",
+  "version": "0.1.0",
+  "description": "Execute JS via SMS",
+  "main": "app.coffee",
+  "dependencies": {
+    "express": "^4.9.4",
+    "body-parser": "^1.8.3",
+    "sandbox": "^0.8.6",
+    "twilio": "^1.7.0",
+    "underscore": "^1.7.0",
+    "xml": "^0.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gberger/jsms.git"
+  },
+  "keywords": [
+    "js",
+    "sms",
+    "sandbox",
+    "twilio"
+  ],
+  "author": "Guilherme Berger <guilherme.berger@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gberger/jsms/issues"
+  },
+  "homepage": "https://github.com/gberger/jsms"
+}
